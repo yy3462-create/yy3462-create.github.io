@@ -1,0 +1,311 @@
+{
+  "description": "Selected paintings from the user-supplied SVD dataset. Thumbnails preserve the complete composition.",
+  "images": [
+    {
+      "id": "painting_wikimedia_Monet_FileClaude_Monet_1884_-_Haystacks_at_Giverny",
+      "artist": "Claude Monet",
+      "title": "Haystacks at Giverny",
+      "date": "1884",
+      "museum": null,
+      "object_url": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_1884_-_Haystacks_at_Giverny.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Claude_Monet%2C_1884_-_Haystacks_at_Giverny.jpg",
+      "license": "Public domain (faithful reproduction of a two-dimensional public-domain artwork; PD-Art)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "monet-haystacks-giverny.webp",
+      "thumbnail_dimensions": [
+        320,
+        262
+      ]
+    },
+    {
+      "id": "painting_met_The_Public_Garden_at_Pontoise_437301",
+      "artist": "Camille Pissarro",
+      "title": "The Public Garden at Pontoise",
+      "date": "1874",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437301",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DT1868.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "pissarro-437301.webp",
+      "thumbnail_dimensions": [
+        320,
+        267
+      ]
+    },
+    {
+      "id": "painting_met_Still_Life_with_Peaches_and_Grapes_437428",
+      "artist": "Auguste Renoir",
+      "title": "Still Life with Peaches and Grapes",
+      "date": "1881",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437428",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23203-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "renoir-437428.webp",
+      "thumbnail_dimensions": [
+        320,
+        268
+      ]
+    },
+    {
+      "id": "painting_met_The_Bridge_at_Villeneuve-la-Garenne_437680",
+      "artist": "Alfred Sisley",
+      "title": "The Bridge at Villeneuve-la-Garenne",
+      "date": "1872",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437680",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-041.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "sisley-437680.webp",
+      "thumbnail_dimensions": [
+        320,
+        240
+      ]
+    },
+    {
+      "id": "painting_wikimedia_Monet_FileClaude_Monet_-_Houses_of_Parliament_Sunlight_Effect_Le_Parlement_effet_de_so",
+      "artist": "Claude Monet",
+      "title": "Houses of Parliament, Sunlight Effect (Le Parlement, effet de soleil)",
+      "date": "1903",
+      "museum": "Brooklyn Museum",
+      "object_url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Houses_of_Parliament,_Sunlight_Effect_(Le_Parlement,_effet_de_soleil)_-_Google_Art_Project.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Claude_Monet_-_Houses_of_Parliament%2C_Sunlight_Effect_%28Le_Parlement%2C_effet_de_soleil%29_-_Google_Art_Project.jpg",
+      "license": "Public domain (faithful reproduction of a two-dimensional public-domain artwork; PD-Art)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "monet-parliament-sunlight.webp",
+      "thumbnail_dimensions": [
+        320,
+        282
+      ]
+    },
+    {
+      "id": "painting_met_The_Boulevard_Montmartre_on_a_Winter_Morning_437310",
+      "artist": "Camille Pissarro",
+      "title": "The Boulevard Montmartre on a Winter Morning",
+      "date": "1897",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437310",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-21959-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "pissarro-437310.webp",
+      "thumbnail_dimensions": [
+        320,
+        258
+      ]
+    },
+    {
+      "id": "painting_met_Hills_around_the_Bay_of_Moulin_Huet_Guernsey_437431",
+      "artist": "Auguste Renoir",
+      "title": "Hills around the Bay of Moulin Huet, Guernsey",
+      "date": "1883",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437431",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20338-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "renoir-437431.webp",
+      "thumbnail_dimensions": [
+        320,
+        230
+      ]
+    },
+    {
+      "id": "painting_met_Sahurs_Meadows_in_Morning_Sun_437683",
+      "artist": "Alfred Sisley",
+      "title": "Sahurs Meadows in Morning Sun",
+      "date": "1894",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437683",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20336-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "sisley-437683.webp",
+      "thumbnail_dimensions": [
+        320,
+        255
+      ]
+    },
+    {
+      "id": "painting_wikimedia_Monet_FileThe_Houses_of_Parliament_Effect_of_Fog",
+      "artist": "Claude Monet",
+      "title": "The Houses of Parliament (Effect of Fog)",
+      "date": "1903–1904",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://commons.wikimedia.org/wiki/File:The_Houses_of_Parliament_(Effect_of_Fog).JPG",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/The_Houses_of_Parliament_%28Effect_of_Fog%29.JPG",
+      "license": "Public domain (faithful reproduction of a two-dimensional public-domain artwork; PD-Art)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "monet-parliament-fog.webp",
+      "thumbnail_dimensions": [
+        320,
+        283
+      ]
+    },
+    {
+      "id": "painting_met_Rue_de_lEpicerie_Rouen_Effect_of_Sunlight_437311",
+      "artist": "Camille Pissarro",
+      "title": "Rue de l'Epicerie, Rouen (Effect of Sunlight)",
+      "date": "1898",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437311",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DT1139.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "pissarro-437311.webp",
+      "thumbnail_dimensions": [
+        259,
+        320
+      ]
+    },
+    {
+      "id": "painting_met_In_the_Meadow_437434",
+      "artist": "Auguste Renoir",
+      "title": "In the Meadow",
+      "date": "1888–92",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437434",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DT1398.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "renoir-437434.webp",
+      "thumbnail_dimensions": [
+        261,
+        320
+      ]
+    },
+    {
+      "id": "painting_met_The_Road_from_Versailles_to_Louveciennes_437685",
+      "artist": "Alfred Sisley",
+      "title": "The Road from Versailles to Louveciennes",
+      "date": "probably 1879",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437685",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22989-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "sisley-437685.webp",
+      "thumbnail_dimensions": [
+        320,
+        266
+      ]
+    },
+    {
+      "id": "painting_met_Still_Life_with_Apples_and_Pitcher_437317",
+      "artist": "Camille Pissarro",
+      "title": "Still Life with Apples and Pitcher",
+      "date": "1872",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437317",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-21958-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "pissarro-437317.webp",
+      "thumbnail_dimensions": [
+        320,
+        268
+      ]
+    },
+    {
+      "id": "painting_met_Bouquet_of_Chrysanthemums_438012",
+      "artist": "Auguste Renoir",
+      "title": "Bouquet of Chrysanthemums",
+      "date": "1881",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/438012",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DT1877.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "renoir-438012.webp",
+      "thumbnail_dimensions": [
+        271,
+        320
+      ]
+    },
+    {
+      "id": "painting_met_Rue_Eugène_Moussoir_at_Moret_Winter_437686",
+      "artist": "Alfred Sisley",
+      "title": "Rue Eugène Moussoir at Moret: Winter",
+      "date": "1891",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437686",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-33708-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "sisley-437686.webp",
+      "thumbnail_dimensions": [
+        320,
+        265
+      ]
+    },
+    {
+      "id": "painting_met_Haystacks_Morning_Eragny_438738",
+      "artist": "Camille Pissarro",
+      "title": "Haystacks, Morning, Eragny",
+      "date": "1899",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/438738",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20613-001.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "pissarro-438738.webp",
+      "thumbnail_dimensions": [
+        320,
+        256
+      ]
+    },
+    {
+      "id": "painting_met_The_Bay_of_Naples_437427",
+      "artist": "Auguste Renoir",
+      "title": "The Bay of Naples",
+      "date": "1881",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437427",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DT1878.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "renoir-437427.webp",
+      "thumbnail_dimensions": [
+        320,
+        233
+      ]
+    },
+    {
+      "id": "painting_met_The_Road_from_Moret_to_Saint-Mammès_437684",
+      "artist": "Alfred Sisley",
+      "title": "The Road from Moret to Saint-Mammès",
+      "date": "1883–85",
+      "museum": "The Metropolitan Museum of Art",
+      "object_url": "https://www.metmuseum.org/art/collection/search/437684",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/original/DP323408.jpg",
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "is_public_domain": true,
+      "thumbnail_file": "sisley-437684.webp",
+      "thumbnail_dimensions": [
+        320,
+        261
+      ]
+    }
+  ]
+}
