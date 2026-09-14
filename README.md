@@ -6,7 +6,7 @@ Website: https://yy3462-create.github.io/
 
 ## Updating the website
 
-The site uses plain HTML and CSS. Edit `index.html` for content, `styles.css` for presentation, and files in `assets/` for the portrait and résumé. GitHub Pages publishes the root of the `main` branch; `.nojekyll` preserves the static files without a Jekyll build.
+The site uses plain HTML and CSS, with a small JavaScript interaction on the SVD analysis page. Edit `index.html` for content, `styles.css` for presentation, and files in `assets/` for the portrait and résumé. GitHub Pages publishes the root of the `main` branch; `.nojekyll` preserves the static files without a Jekyll build.
 
 ## Media credits
 
@@ -24,3 +24,6 @@ The videos load on demand and do not autoplay. Exploratory projects are presente
 
 - Featured robot project: [Locomotion Selects for Symmetry](https://jl6017.github.io/icos-codesign/), Jiong Lin, Yue Yao and Hod Lipson, Creative Machines Lab, Columbia University. Video `media/g0_444_0_r4d2_d25m_mujoco.mp4` is the official A3a abstract-model replay; poster is its 6-second frame. The older ranking-transfer repository is not the featured project link.
 - Impressionist painting grid: 18 selected image records from the author-supplied `svd_dataset/metadata.csv`: Monet (3), Pissarro (5), Renoir (5), Sisley (5). Fifteen Met images are individually verified public domain, supplied under [Met Open Access / CC0](https://www.metmuseum.org/hubs/open-access); three Monet reproductions are public domain images from Wikimedia Commons. Full per-image artist, artwork, museum, source and license records are in `assets/paintings/credits.json`. Mechanical 320px maximum thumbnails retain full compositions; the gallery is an HTML grid, not a generated or flattened image. The dataset has 65 painting image records and 65 photographs; those counts do not establish 65 unique artworks.
+
+- Oxford writing: *Materiality, Medium, and Site in Transformation: Tracing Shape of the Wind*, Yue Yao, Hilary Term 2021. Published as an explicitly unpublished Oxford research essay in Selected Writing. Public PDF removes the candidate number, fixes handscroll viewing direction and the Huang Gongwang figure date, and trims video player strips; all other text is retained. Artwork is by Bingyi, not Yue Yao. Homepage image is the original right panel of Figure 1, credited in the essay to *Bingyi: Fuchun, 2012.05* (Rick Widmer).
+- `svd.html`: *Visual Style in the Singular Spectrum*, a richer presentation of the collaborative SVD exploration. The reconstruction demo uses three genuine processed painting matrices from the supplied dataset; float64 SVD reconstructions at ranks 1, 5, 10, 20, 40, 80, 160, 320 and 512. The demo is a new explanatory computation, not a rerun of all reported group statistics. `assets/svd-demo/data.json` records image paths, retained energy fractions and relative Frobenius errors. Images show clipped 8-bit grayscale values; metrics use unrounded matrices. Full-rank reconstruction errors are below 3e-15. Figures 1, 3 and 4 from the original report retain their numbering.

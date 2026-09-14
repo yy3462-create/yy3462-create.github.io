@@ -1,0 +1,231 @@
+{
+  "ranks": [
+    1,
+    5,
+    10,
+    20,
+    40,
+    80,
+    160,
+    320,
+    512
+  ],
+  "examples": [
+    {
+      "id": "monet-parliament",
+      "artist": "Claude Monet",
+      "title": "Houses of Parliament, Sunlight Effect (Le Parlement, effet de soleil)",
+      "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Houses_of_Parliament,_Sunlight_Effect_(Le_Parlement,_effet_de_soleil)_-_Google_Art_Project.jpg",
+      "original": "./assets/svd-demo/monet-parliament/original.png",
+      "frames": [
+        {
+          "rank": 1,
+          "file": "./assets/svd-demo/monet-parliament/rank-001.png",
+          "totalEnergy": 0.9862982608782921,
+          "residualEnergy": 0,
+          "relativeError": 0.11705442803118533
+        },
+        {
+          "rank": 5,
+          "file": "./assets/svd-demo/monet-parliament/rank-005.png",
+          "totalEnergy": 0.9944063522921822,
+          "residualEnergy": 0.5917563706233714,
+          "relativeError": 0.07479069265502088
+        },
+        {
+          "rank": 10,
+          "file": "./assets/svd-demo/monet-parliament/rank-010.png",
+          "totalEnergy": 0.99616463364808,
+          "residualEnergy": 0.7200817853958779,
+          "relativeError": 0.06193033466662315
+        },
+        {
+          "rank": 20,
+          "file": "./assets/svd-demo/monet-parliament/rank-020.png",
+          "totalEnergy": 0.997636156017467,
+          "residualEnergy": 0.8274785440347576,
+          "relativeError": 0.04861937867283969
+        },
+        {
+          "rank": 40,
+          "file": "./assets/svd-demo/monet-parliament/rank-040.png",
+          "totalEnergy": 0.9986554012992911,
+          "residualEnergy": 0.9018665668084058,
+          "relativeError": 0.03666877010084711
+        },
+        {
+          "rank": 80,
+          "file": "./assets/svd-demo/monet-parliament/rank-080.png",
+          "totalEnergy": 0.9993636980495407,
+          "residualEnergy": 0.95356049733489,
+          "relativeError": 0.025225026272715775
+        },
+        {
+          "rank": 160,
+          "file": "./assets/svd-demo/monet-parliament/rank-160.png",
+          "totalEnergy": 0.9997890916519263,
+          "residualEnergy": 0.9846071840807787,
+          "relativeError": 0.01452268391426481
+        },
+        {
+          "rank": 320,
+          "file": "./assets/svd-demo/monet-parliament/rank-320.png",
+          "totalEnergy": 0.9999777047511127,
+          "residualEnergy": 0.9983728161301856,
+          "relativeError": 0.004721784502415316
+        },
+        {
+          "rank": 512,
+          "file": "./assets/svd-demo/monet-parliament/rank-512.png",
+          "totalEnergy": 1.0,
+          "residualEnergy": 1.0,
+          "relativeError": 2.8163780812868512e-15
+        }
+      ]
+    },
+    {
+      "id": "pissarro-boulevard",
+      "artist": "Camille Pissarro",
+      "title": "The Boulevard Montmartre on a Winter Morning",
+      "source": "https://www.metmuseum.org/art/collection/search/437310",
+      "original": "./assets/svd-demo/pissarro-boulevard/original.png",
+      "frames": [
+        {
+          "rank": 1,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-001.png",
+          "totalEnergy": 0.9507300407259669,
+          "residualEnergy": 0,
+          "relativeError": 0.22196837449067638
+        },
+        {
+          "rank": 5,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-005.png",
+          "totalEnergy": 0.9775869990086324,
+          "residualEnergy": 0.5450980410454686,
+          "relativeError": 0.1497097224343418
+        },
+        {
+          "rank": 10,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-010.png",
+          "totalEnergy": 0.9854150169779002,
+          "residualEnergy": 0.7039781798685866,
+          "relativeError": 0.1207683030521664
+        },
+        {
+          "rank": 20,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-020.png",
+          "totalEnergy": 0.9909127222979093,
+          "residualEnergy": 0.8155614935350695,
+          "relativeError": 0.09532721385884846
+        },
+        {
+          "rank": 40,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-040.png",
+          "totalEnergy": 0.994814246994548,
+          "residualEnergy": 0.8947481775536028,
+          "relativeError": 0.07201217261999367
+        },
+        {
+          "rank": 80,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-080.png",
+          "totalEnergy": 0.9975906162831847,
+          "residualEnergy": 0.9510983213236562,
+          "relativeError": 0.049085473582469584
+        },
+        {
+          "rank": 160,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-160.png",
+          "totalEnergy": 0.9992774982186403,
+          "residualEnergy": 0.985335855925084,
+          "relativeError": 0.026879393247610083
+        },
+        {
+          "rank": 320,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-320.png",
+          "totalEnergy": 0.999942366487837,
+          "residualEnergy": 0.9988302504606815,
+          "relativeError": 0.007591673870961695
+        },
+        {
+          "rank": 512,
+          "file": "./assets/svd-demo/pissarro-boulevard/rank-512.png",
+          "totalEnergy": 1.0,
+          "residualEnergy": 1.0,
+          "relativeError": 2.053247585137915e-15
+        }
+      ]
+    },
+    {
+      "id": "renoir-still-life",
+      "artist": "Auguste Renoir",
+      "title": "Still Life with Peaches and Grapes",
+      "source": "https://www.metmuseum.org/art/collection/search/437428",
+      "original": "./assets/svd-demo/renoir-still-life/original.png",
+      "frames": [
+        {
+          "rank": 1,
+          "file": "./assets/svd-demo/renoir-still-life/rank-001.png",
+          "totalEnergy": 0.9666334516486594,
+          "residualEnergy": 0,
+          "relativeError": 0.18266512625934073
+        },
+        {
+          "rank": 5,
+          "file": "./assets/svd-demo/renoir-still-life/rank-005.png",
+          "totalEnergy": 0.9890389090615849,
+          "residualEnergy": 0.6714946112196521,
+          "relativeError": 0.10469522882355012
+        },
+        {
+          "rank": 10,
+          "file": "./assets/svd-demo/renoir-still-life/rank-010.png",
+          "totalEnergy": 0.9935682499358832,
+          "residualEnergy": 0.8072395743068015,
+          "relativeError": 0.08019819239931261
+        },
+        {
+          "rank": 20,
+          "file": "./assets/svd-demo/renoir-still-life/rank-020.png",
+          "totalEnergy": 0.9966335196005294,
+          "residualEnergy": 0.8991061237733432,
+          "relativeError": 0.05802137881394191
+        },
+        {
+          "rank": 40,
+          "file": "./assets/svd-demo/renoir-still-life/rank-040.png",
+          "totalEnergy": 0.9986827114148592,
+          "residualEnergy": 0.9605206816338825,
+          "relativeError": 0.036294470448555056
+        },
+        {
+          "rank": 80,
+          "file": "./assets/svd-demo/renoir-still-life/rank-080.png",
+          "totalEnergy": 0.9995965691431141,
+          "residualEnergy": 0.9879091222550783,
+          "relativeError": 0.020085588288274767
+        },
+        {
+          "rank": 160,
+          "file": "./assets/svd-demo/renoir-still-life/rank-160.png",
+          "totalEnergy": 0.9999215124634884,
+          "residualEnergy": 0.997647717837479,
+          "relativeError": 0.00885931919008189
+        },
+        {
+          "rank": 320,
+          "file": "./assets/svd-demo/renoir-still-life/rank-320.png",
+          "totalEnergy": 0.9999958509487172,
+          "residualEnergy": 0.9998756523677771,
+          "relativeError": 0.002036922011992555
+        },
+        {
+          "rank": 512,
+          "file": "./assets/svd-demo/renoir-still-life/rank-512.png",
+          "totalEnergy": 1.0,
+          "residualEnergy": 1.0,
+          "relativeError": 2.0992366108504887e-15
+        }
+      ]
+    }
+  ]
+}
