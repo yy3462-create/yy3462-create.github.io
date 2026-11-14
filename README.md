@@ -13,7 +13,7 @@ The site uses plain HTML and CSS, with a small JavaScript interaction on the SVD
 - Portrait supplied by Yue Yao.
 - ReTracing photograph: Yitong Wang and Yue Yao, Figure 2 of [ReTracing](https://arxiv.org/html/2602.11242v1), CC BY 4.0. The original credit is also displayed beside the image on the website.
 
-- EPA auditing framework: Jianing Fan and Yue Yao, Figure 1 of [Who Gets Heeded?](https://arxiv.org/html/2608.10329v1), CC BY 4.0.
+- EPA audit: [ACM proceedings paper](https://doi.org/10.1145/3846167.3848608). Figures 1 and 2 (left) from the [camera-ready manuscript](https://arxiv.org/html/2608.10329v2), Jianing Fan and Yue Yao, CC BY 4.0. The oral paper appears on the [Munich program](https://conference2026.eaamo.org/program/paper_session/).
 - ReTracing preview video and pipeline: [official project](https://ellywang66.github.io/ReTracing/), Yitong Wang and Yue Yao. Preview transcoded to H.264 MP4 for browser compatibility. Full film linked from the CVPR Art project page.
 - ReTracing motion reconstruction: Figure 5 of the [paper](https://arxiv.org/html/2602.11242v1), CC BY 4.0; resized for the website.
 - Archived robot simulation asset: `media/hexapod_r4d2_d25m_mujoco.mp4` from [Co-Design Rankings Do Not Survive Realization](https://github.com/yy3462-create/codesign-realization-gap). Poster is a frame from the clip. This is a flat-ground abstract-model trajectory replay rendered in MuJoCo.
@@ -29,6 +29,9 @@ The videos load on demand and do not autoplay. Exploratory projects are presente
 - `svd.html`: *Visual Style in the Singular Spectrum*, a richer presentation of the collaborative SVD exploration. The reconstruction demo uses three genuine processed painting matrices from the supplied dataset; float64 SVD reconstructions at ranks 1, 5, 10, 20, 40, 80, 160, 320 and 512. The demo is a new explanatory computation, not a rerun of all reported group statistics. `assets/svd-demo/data.json` records image paths, retained energy fractions and relative Frobenius errors. Images show clipped 8-bit grayscale values; metrics use unrounded matrices. Full-rank reconstruction errors are below 3e-15. Figures 1, 3 and 4 from the original report retain their numbering.
 
 - UBC writing: *Memory, Space, and Selfhood in Transition: Yin Xiuzhen’s Heterotopographic Vision of Beijing*, Yue Yao, 2019. Listed as a symposium presentation in the [official UBC program](https://ahva.ubc.ca/events/event/15th-annual-undergraduate-art-history-symposium/), not as a confirmed journal publication. The supplied 11-page essay is preserved unchanged. Homepage image is Figure 1, *Portable City: Beijing* (2001), extracted without cropping; © 2019 Yin Xiuzhen, courtesy of Pace Gallery. The artwork is by Yin Xiuzhen; Yue Yao is the essay author.
+
+- Robot films on `robotics.html`: ICOS 4332 bench and shared-shell simulation from Yue Yao’s [November ICOS build record](https://github.com/yy3462-create/icos-weekly-update); two CAD sequences from *AI, CAD, and the Parts That Did Not Fit*; an eight-joint FreeCAD model’s joint sweep; and a group Robotics Studio Droplet hardware test. CAD, simulation and actual bench footage are individually identified. Videos are click-to-play, with static poster frames.
+- The three complete cartoon character sheets from *A Language of Small Gestures* are used as early expression studies for a planned project.
 
 ## Search discovery
 

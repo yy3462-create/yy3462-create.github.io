@@ -1,0 +1,6 @@
+#epa .epa-result { align-self: center; }
+#epa .epa-result img { background: #fff; }
+#epa .epa-credit { display: block; margin-top: .3em; }
+#epa .epa-methods { grid-column: 1 / -1; margin: 0; background: #fff; }
+#epa .epa-methods summary { font-size: .95rem; }
+#epa .epa-methods .study-figure { padding: clamp(.7rem,2.4vw,1.5rem); max-width: none; }
