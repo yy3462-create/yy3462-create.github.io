@@ -30,7 +30,7 @@ The videos load on demand and do not autoplay. Exploratory projects are presente
 
 - UBC writing: *Memory, Space, and Selfhood in Transition: Yin Xiuzhen’s Heterotopographic Vision of Beijing*, Yue Yao, 2019. Listed as a symposium presentation in the [official UBC program](https://ahva.ubc.ca/events/event/15th-annual-undergraduate-art-history-symposium/), not as a confirmed journal publication. The supplied 11-page essay is preserved unchanged. Homepage image is Figure 1, *Portable City: Beijing* (2001), extracted without cropping; © 2019 Yin Xiuzhen, courtesy of Pace Gallery. The artwork is by Yin Xiuzhen; Yue Yao is the essay author.
 
-- Robot films on `robotics.html`: ICOS 4332 bench and shared-shell simulation from Yue Yao’s [November ICOS build record](https://github.com/yy3462-create/icos-weekly-update); two CAD sequences from *AI, CAD, and the Parts That Did Not Fit*; an eight-joint FreeCAD model’s joint sweep; and a group Robotics Studio Droplet hardware test. CAD, simulation and actual bench footage are individually identified. Videos are click-to-play, with static poster frames.
+- Robot films on `robotics.html`: ICOS 4332 bench and shared-shell simulation from Yue Yao’s [November ICOS build record](https://github.com/yy3462-create/icos-weekly-update); three AI-assisted design workflow examples (a FreeCAD joint sweep, Droplet leg assembly, and ICOS electronics tray assembly); and a Droplet team bench test from Columbia University’s Robotics Studio. CAD, simulation and actual bench footage are individually identified. Videos are click-to-play, with static poster frames.
 - The three complete cartoon character sheets from *A Language of Small Gestures* are used as early expression studies for a planned project.
 
 ## Search discovery
