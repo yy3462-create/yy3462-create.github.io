@@ -57,9 +57,9 @@
 </script>
 <link rel="stylesheet" href="./styles.css?v=20260914-candidate">
 <link rel="stylesheet" href="./epa-update.css?v=20261113">
-<link rel="stylesheet" href="./studio.css?v=20261114-kinetic">
+<link rel="stylesheet" href="./studio.css?v=20261114-stills">
 <link rel="stylesheet" href="./featured-robotics.css?v=20261114">
-<script src="./motion.js?v=20261114" defer></script>
+<script src="./motion.js?v=20261114-inline" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -74,42 +74,51 @@
 <a href="https://github.com/yy3462-create" target="_blank" rel="noopener noreferrer" aria-label="Yue Yao on GitHub" title="GitHub"><span class="social-glyph" aria-hidden="true">GH</span><span>GitHub</span></a>
 <a href="https://www.linkedin.com/in/yueyaoyy/" target="_blank" rel="noopener noreferrer" aria-label="Yue Yao on LinkedIn" title="LinkedIn"><span class="social-glyph linkedin" aria-hidden="true">in</span><span>LinkedIn</span></a>
 </div></div></section>
-<div class="wrap motion-toolbar" id="project-gallery">
-  <span class="gallery-title" id="gallery-title">Selected work</span>
-  <button type="button" class="motion-toggle" data-motion-toggle hidden>Pause motion</button>
-</div>
-<nav class="project-gallery wrap" aria-labelledby="gallery-title">
-  <a href="#retracing">
-    <video muted playsinline loop preload="none" poster="./assets/previews/retracing.webp" width="576" height="324" aria-hidden="true"><source src="./assets/previews/retracing.mp4" type="video/mp4"></video>
-    <span class="gallery-caption"><strong>ReTracing</strong><span>Human–robot performance</span></span>
-  </a>
-  <a href="#robot-design">
-    <video muted playsinline loop preload="none" poster="./assets/studio/icos-4332-cad.webp" width="576" height="324" aria-hidden="true"><source src="./assets/previews/assembly.mp4" type="video/mp4"></video>
-    <span class="gallery-caption"><strong>Robot Design in Motion</strong><span>CAD and assembly</span></span>
-  </a>
-  <a href="#codesign">
-    <video muted playsinline loop preload="none" poster="./assets/icos-locomotion-poster.jpg" width="576" height="324" aria-hidden="true"><source src="./assets/previews/gait.mp4" type="video/mp4"></video>
-    <span class="gallery-caption"><strong>Locomotion Selects for Symmetry</strong><span>Bodies and gaits in simulation</span></span>
-  </a>
-  <a href="./robotics.html#droplet">
-    <video muted playsinline loop preload="none" poster="./assets/studio/homepage-droplet-bench.webp" width="576" height="324" aria-hidden="true"><source src="./assets/previews/droplet.mp4" type="video/mp4"></video>
-    <span class="gallery-caption"><strong>Droplet</strong><span>Robotics Studio · Bench test</span></span>
-  </a>
-  <a href="./robotics.html#ai-cad-workflow">
-    <video muted playsinline loop preload="none" poster="./assets/studio/homepage-droplet-concept.webp" width="576" height="324" aria-hidden="true"><source src="./assets/previews/concepts.mp4" type="video/mp4"></video>
-    <span class="gallery-caption"><strong>AI Design Workflow</strong><span>Concepts, testing and revision</span></span>
-  </a>
-  <a href="#character-studies">
-    <video muted playsinline loop preload="none" poster="./assets/previews/longneck.webp" width="576" height="324" aria-hidden="true"><source src="./assets/previews/longneck.mp4" type="video/mp4"></video>
-    <span class="gallery-caption"><strong>Kinetic Characters</strong><span>Longneck and three mechanical characters</span></span>
-  </a>
-</nav>
+<section id="project-gallery" class="wrap selected-work" aria-labelledby="gallery-title">
+  <div class="gallery-bar">
+    <h2 class="gallery-title" id="gallery-title">Selected work</h2>
+  </div>
+  <nav id="work-stills" class="project-gallery" aria-label="Selected projects">
+    <a href="#retracing">
+      <img src="./assets/retracing.jpg" width="1555" height="839" alt="Performer and robot on the mirrored stage during the filming of ReTracing" decoding="async">
+      <span class="gallery-caption"><strong>ReTracing</strong><span>Human–robot performance</span></span>
+    </a>
+    <a href="#robot-design">
+      <img src="./assets/studio/icos-4332-cad.webp" width="960" height="540" alt="Articulated legs and exposed electronics on the modular ICOS robot in CAD" decoding="async">
+      <span class="gallery-caption"><strong>Robot Design in Motion</strong><span>Mechanical design and assembly</span></span>
+    </a>
+    <a href="./robotics.html#droplet">
+      <img src="./assets/studio/homepage-droplet-bench.webp" width="400" height="225" alt="Close view of the servos and printed legs of the supported Droplet prototype" decoding="async">
+      <span class="gallery-caption"><strong>Droplet</strong><span>Printed prototype · Bench test</span></span>
+    </a>
+    <a href="./robotics.html#ai-cad-workflow">
+      <img src="./assets/studio/homepage-droplet-concept.webp" width="800" height="450" alt="Silver domed robot concept on two articulated legs" decoding="async">
+      <span class="gallery-caption"><strong>AI Design Workflow</strong><span>Droplet concept study</span></span>
+    </a>
+    <a href="#codesign">
+      <img src="./assets/icos-locomotion-poster.jpg" width="960" height="540" alt="Three-legged abstract robot in mid-stride on a simulated floor" decoding="async">
+      <span class="gallery-caption"><strong>Locomotion Selects for Symmetry</strong><span>Evolutionary robot co-design</span></span>
+    </a>
+    <a href="#character-studies">
+      <img src="./assets/studio/kinetic-characters-workbench.webp" width="1080" height="630" alt="Rendered group portrait of the one-eyed automaton, Zip and Longneck on a wooden workbench" decoding="async">
+      <span class="gallery-caption"><strong>Kinetic Characters</strong><span>Character studies · Studio render</span></span>
+    </a>
+    <a href="#svd">
+      <img src="./assets/paintings/monet-haystacks-giverny.webp" width="320" height="262" alt="Claude Monet’s Haystacks at Giverny, a painting in the visual-style study" decoding="async">
+      <span class="gallery-caption"><strong>Visual Style in the Singular Spectrum</strong><span>Impressionism and linear algebra</span></span>
+    </a>
+    <a href="#epa">
+      <img class="work-chart" src="./assets/epa-engagement-revision.png" width="1040" height="780" alt="Study figure comparing the revision rates of EPA provisions with different levels of public engagement" decoding="async">
+      <span class="gallery-caption"><strong>Who Gets Heeded?</strong><span>AI and regulatory accountability</span></span>
+    </a>
+  </nav>
+</section>
 <section id="about" class="about-layout wrap" aria-labelledby="about-heading"><div class="about-main"><h2 id="about-heading" class="ruled-heading">About</h2><p>I am an <strong>M.B.A. candidate at Columbia University</strong>, focusing on <strong>Data Science and Artificial Intelligence</strong>. My research spans <strong>robotic co-design, human–robot interaction, and algorithmic accountability</strong>. My background in art history and visual culture at the University of Oxford and the University of British Columbia informs my work on creative robotics and cultural analytics.</p><p>At <strong>Columbia University’s <a class="institution-link" href="https://www.creativemachineslab.com/" target="_blank" rel="noopener noreferrer">Creative Machines Lab</a></strong>, I contribute to research in creative robotics and embodied AI. As a <strong>Data and AI Fellow</strong> in the <strong>United Nations Executive Office of the Secretary-General (EOSG)</strong>, I support data and AI workflows for the <a class="institution-link" href="https://crafd.io/" target="_blank" rel="noopener noreferrer">Complex Risk Analytics Fund (CRAF’d)</a>. My work connects computational methods with questions of culture, governance, and human experience.</p>
 <details class="biography"><summary><span>Biography</span><span class="details-indicator" aria-hidden="true"></span></summary><div class="biography-body"><p>My path began with art history: a B.A. (Honours) at the University of British Columbia, followed by an M.St. in History of Art and Visual Culture at the University of Oxford. I later worked in banking and management research before pursuing an M.B.A. at Columbia Business School.</p><p>At Shanghai Pudong Development Bank, I worked on policy frameworks and data-supported workforce planning. At CEIBS, I contributed to business cases and white-paper research on entrepreneurship and internationalization. That experience continues to inform my research on AI, institutions, and technology governance.</p></div></details></div>
 <aside class="about-sidebar"><div class="interest-panel"><h3>Research Interests</h3><div class="interest-tags"><span>Embodied AI</span><span>Creative Robotics</span><span>Human–Robot Interaction</span><span>Cultural Analytics</span><span>AI Governance</span><span>Algorithmic Accountability</span><span>Computational Social Science</span></div></div><div class="current-panel"><h3>Current Work</h3><p><strong>Columbia University</strong><br><a class="institution-link" href="https://www.creativemachineslab.com/" target="_blank" rel="noopener noreferrer">Creative Machines Lab</a></p><p><strong>United Nations · EOSG</strong><br>Data and AI Fellow · <a class="institution-link" href="https://crafd.io/" target="_blank" rel="noopener noreferrer">CRAF’d</a></p></div></aside></section>
-<section id="work" class="section wrap" aria-labelledby="work-heading"><div class="section-heading"><div><h2 id="work-heading">Featured Research &amp; Projects</h2></div></div>
+<section id="work" class="section wrap" aria-labelledby="work-heading"><div class="section-heading film-heading"><h2 id="work-heading">Featured Research &amp; Projects</h2><button type="button" class="motion-toggle" data-motion-toggle hidden>Pause motion</button></div>
 <article id="retracing" class="featured-work">
-<figure class="featured-figure"><video loop controls muted playsinline preload="none" poster="./assets/retracing.jpg" width="1864" height="1080" aria-label="ReTracing performance preview" aria-describedby="retracing-caption"><source src="./assets/retracing-preview.mp4" type="video/mp4"><a href="./assets/retracing-preview.mp4">Watch the ReTracing preview</a></video><figcaption id="retracing-caption">Human–robot choreography and reconstructed motion traces. 19-second preview · Yitong Wang* &amp; Yue Yao*. <a href="https://ellywang66.github.io/ReTracing/" target="_blank" rel="noopener noreferrer">Project source</a></figcaption></figure>
+<figure class="featured-figure"><video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/retracing.jpg" width="1864" height="1080" aria-label="ReTracing performance preview" aria-describedby="retracing-caption"><source src="./assets/retracing-preview.mp4" type="video/mp4"><a href="./assets/retracing-preview.mp4">Watch the ReTracing preview</a></video><figcaption id="retracing-caption">Human–robot choreography and reconstructed motion traces. 19-second preview · Yitong Wang* &amp; Yue Yao*. <a href="https://ellywang66.github.io/ReTracing/" target="_blank" rel="noopener noreferrer">Project source</a></figcaption></figure>
 <div class="featured-copy"><span class="project-kicker">CREATIVE ROBOTICS / FEATURED</span><h3>ReTracing</h3><p class="project-subtitle">Body, machine &amp; generative systems.</p><p class="project-authors">Yitong Wang<sup>*</sup> &amp; <strong>Yue Yao<sup>*</sup></strong><br><span>* Co-first authors; equal contribution</span></p><p>I co-architected a pipeline that turns language into shared movement for a human performer and a quadruped robot, then reconstructs their interactions as 3D motion traces.</p><p class="recognition">NeurIPS 2025 · Creative AI Track<br>CVPR 2026 · Art Gallery</p><div class="project-links"><a href="https://arxiv.org/abs/2602.11242" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a><a href="https://ellywang66.github.io/ReTracing/" target="_blank" rel="noopener noreferrer">Website <span aria-hidden="true">↗</span></a><a href="https://player.vimeo.com/video/1194777853" target="_blank" rel="noopener noreferrer">Full film · 5 min <span aria-hidden="true">↗</span></a></div></div>
 <div class="process-gallery">
 <figure><a class="figure-link" href="./assets/retracing-motion.jpg" target="_blank" rel="noopener" aria-label="Enlarge ReTracing motion reconstruction"><img src="./assets/retracing-motion.jpg" width="1500" height="991" alt="Nine views of reconstructed human and robot motion, with colored trajectories tracing their movement." loading="lazy"></a><figcaption>Movement becomes a 3D archive. <a href="https://arxiv.org/html/2602.11242v1" target="_blank" rel="noopener noreferrer">Paper, Fig. 5</a> · CC BY 4.0</figcaption></figure>
@@ -118,7 +127,7 @@
 </article>
 <article id="robot-design" class="studio-feature" aria-labelledby="robot-design-title">
   <figure>
-    <video loop controls muted playsinline preload="none" poster="./assets/studio/icos-spring-bolt-dock.webp" width="1280" height="642" aria-label="Two spring bolts engaging as an ICOS leg docks in the shell" aria-describedby="build-preview-caption"><source src="./assets/studio/icos-spring-bolt-dock.mp4" type="video/mp4"><a href="./assets/studio/icos-spring-bolt-dock.mp4">Watch the ICOS leg dock</a></video>
+    <video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/studio/icos-spring-bolt-dock.webp" width="1280" height="642" aria-label="Two spring bolts engaging as an ICOS leg docks in the shell" aria-describedby="build-preview-caption"><source src="./assets/studio/icos-spring-bolt-dock.mp4" type="video/mp4"><a href="./assets/studio/icos-spring-bolt-dock.mp4">Watch the ICOS leg dock</a></video>
     <figcaption id="build-preview-caption"><strong>Fitting a leg to the shell.</strong> Two printed spring bolts lock the leg in place in the V83 CAD assembly.</figcaption>
   </figure>
   <div>
@@ -129,15 +138,15 @@
   </div>
   <div class="assembly-films" aria-label="Assembly films">
     <figure>
-      <video loop controls muted playsinline preload="none" poster="./assets/studio/workflow-leg.webp" width="1026" height="880" aria-label="Exploded CAD assembly sequence for a Droplet leg"><source src="./assets/studio/workflow-leg.mp4" type="video/mp4"><a href="./assets/studio/workflow-leg.mp4">Watch the leg assembly</a></video>
+      <video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/studio/workflow-leg.webp" width="1026" height="880" aria-label="Exploded CAD assembly sequence for a Droplet leg"><source src="./assets/studio/workflow-leg.mp4" type="video/mp4"><a href="./assets/studio/workflow-leg.mp4">Watch the leg assembly</a></video>
       <figcaption><a href="./robotics.html#droplet-leg-assembly">Droplet · Leg assembly →</a></figcaption>
     </figure>
     <figure>
-      <video loop controls muted playsinline preload="none" poster="./assets/studio/workflow-tray.webp" width="1026" height="776" aria-label="Assembly sequence of the ICOS electronics tray"><source src="./assets/studio/workflow-tray.mp4" type="video/mp4"><a href="./assets/studio/workflow-tray.mp4">Watch the electronics tray assembly</a></video>
+      <video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/studio/workflow-tray.webp" width="1026" height="776" aria-label="Assembly sequence of the ICOS electronics tray"><source src="./assets/studio/workflow-tray.mp4" type="video/mp4"><a href="./assets/studio/workflow-tray.mp4">Watch the electronics tray assembly</a></video>
       <figcaption><a href="./robotics.html#tray-caption">ICOS · Electronics tray →</a></figcaption>
     </figure>
     <figure>
-      <video loop controls muted playsinline preload="none" poster="./assets/studio/icos-4332-cad.webp" width="960" height="540" aria-label="Rotation of the complete 4332 ICOS CAD assembly"><source src="./assets/studio/icos-4332-cad.mp4" type="video/mp4"><a href="./assets/studio/icos-4332-cad.mp4">Watch the complete assembly</a></video>
+      <video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/studio/icos-4332-cad.webp" width="960" height="540" aria-label="Rotation of the complete 4332 ICOS CAD assembly"><source src="./assets/studio/icos-4332-cad.mp4" type="video/mp4"><a href="./assets/studio/icos-4332-cad.mp4">Watch the complete assembly</a></video>
       <figcaption><a href="./robotics.html#icos-builds">ICOS · Complete 4332 assembly →</a></figcaption>
     </figure>
   </div>
@@ -152,11 +161,11 @@
   </div>
   <div class="gait-comparison">
     <figure>
-      <video loop controls muted playsinline preload="none" poster="./assets/icos-locomotion-poster.jpg" width="960" height="540" aria-label="A3a tripod simulation replay" aria-describedby="simulation-caption"><source src="./assets/icos-locomotion.mp4" type="video/mp4"><a href="./assets/icos-locomotion.mp4">Watch the abstract tripod gait</a></video>
+      <video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/icos-locomotion-poster.jpg" width="960" height="540" aria-label="A3a tripod simulation replay" aria-describedby="simulation-caption"><source src="./assets/icos-locomotion.mp4" type="video/mp4"><a href="./assets/icos-locomotion.mp4">Watch the abstract tripod gait</a></video>
       <figcaption id="simulation-caption"><strong>Abstract model</strong> The A3a tripod walks on flat ground in a 20-second MuJoCo replay.</figcaption>
     </figure>
     <figure>
-      <video loop controls muted playsinline preload="none" poster="./assets/studio/icos-shared-shell-simulation.webp" width="800" height="450" aria-label="Asymmetric ICOS leg configuration walking in simulation" aria-describedby="shell-gait-caption"><source src="./assets/studio/icos-shared-shell-simulation.mp4" type="video/mp4"><a href="./assets/studio/icos-shared-shell-simulation.mp4">Watch the shared-shell gait</a></video>
+      <video loop disablepictureinpicture disableremoteplayback muted playsinline preload="none" poster="./assets/studio/icos-shared-shell-simulation.webp" width="800" height="450" aria-label="Asymmetric ICOS leg configuration walking in simulation" aria-describedby="shell-gait-caption"><source src="./assets/studio/icos-shared-shell-simulation.mp4" type="video/mp4"><a href="./assets/studio/icos-shared-shell-simulation.mp4">Watch the shared-shell gait</a></video>
       <figcaption id="shell-gait-caption"><strong>Fabrication-oriented model</strong> An asymmetric leg arrangement walks in simulation on the shared ICOS shell. <a href="https://yy3462-create.github.io/icos-weekly-update/four-robots/#robot3" target="_blank" rel="noopener noreferrer">Compare four configurations ↗</a></figcaption>
     </figure>
   </div>
@@ -171,23 +180,23 @@
 <div class="explorations-heading"><h3>Explorations</h3><p>Character design, art and computation.</p></div>
 <article id="character-studies" class="studio-project kinetic-project" aria-labelledby="character-studies-title">
   <p class="studio-kicker">Mechanical character design</p>
-  <h3 id="character-studies-title" class="studio-title">Kinetic Characters</h3>
+  <div class="character-heading"><h3 id="character-studies-title" class="studio-title">Kinetic Characters</h3><button type="button" class="motion-toggle" data-motion-toggle hidden>Pause motion</button></div>
   <p>What makes a mechanism look curious or surprised? Four short animatics explore expression through a telescoping neck, a hinged jaw, a swinging brush and a zippered seam.</p>
   <div class="character-films">
     <figure>
-      <video muted playsinline loop controls preload="none" width="768" height="512" poster="./assets/studio/character-longneck.webp" aria-label="Longneck in Over the Wall" aria-describedby="caption-longneck"><source src="./assets/studio/character-longneck.mp4" type="video/mp4"><a href="./assets/studio/character-longneck.mp4">Watch Over the Wall</a></video>
+      <video muted playsinline loop disablepictureinpicture disableremoteplayback preload="none" width="768" height="512" poster="./assets/studio/character-longneck.webp" aria-label="Longneck in Over the Wall" aria-describedby="caption-longneck"><source src="./assets/studio/character-longneck.mp4" type="video/mp4"><a href="./assets/studio/character-longneck.mp4">Watch Over the Wall</a></video>
       <figcaption id="caption-longneck"><strong>Longneck</strong><em>Over the Wall</em> · A mechanical sauropod extends its neck, sleeve by sleeve, until it can meet a snail at eye level. <a href="./assets/studio/character-longneck-sheet.webp" target="_blank" rel="noopener" aria-label="Open the concept sheet for Longneck">Concept sheet ↗</a></figcaption>
     </figure>
     <figure>
-      <video muted playsinline loop controls preload="none" width="768" height="512" poster="./assets/studio/character-hat-chase.webp" aria-label="The One-Eyed Automaton in The Hat Chase" aria-describedby="caption-hat-chase"><source src="./assets/studio/character-hat-chase.mp4" type="video/mp4"><a href="./assets/studio/character-hat-chase.mp4">Watch The Hat Chase</a></video>
+      <video muted playsinline loop disablepictureinpicture disableremoteplayback preload="none" width="768" height="512" poster="./assets/studio/character-hat-chase.webp" aria-label="The One-Eyed Automaton in The Hat Chase" aria-describedby="caption-hat-chase"><source src="./assets/studio/character-hat-chase.mp4" type="video/mp4"><a href="./assets/studio/character-hat-chase.mp4">Watch The Hat Chase</a></video>
       <figcaption id="caption-hat-chase"><strong>The One-Eyed Automaton</strong><em>The Hat Chase</em> · A gust lifts its red cap. The wooden figure follows it with a tilt of the head and a single brass eye. <a href="./assets/studio/character-wooden-block.webp" target="_blank" rel="noopener" aria-label="Open the concept sheet for The One-Eyed Automaton">Concept sheet ↗</a></figcaption>
     </figure>
     <figure>
-      <video muted playsinline loop controls preload="none" width="768" height="512" poster="./assets/studio/character-first-smile.webp" aria-label="The Pendulum Painter in The First Smile" aria-describedby="caption-first-smile"><source src="./assets/studio/character-first-smile.mp4" type="video/mp4"><a href="./assets/studio/character-first-smile.mp4">Watch The First Smile</a></video>
+      <video muted playsinline loop disablepictureinpicture disableremoteplayback preload="none" width="768" height="512" poster="./assets/studio/character-first-smile.webp" aria-label="The Pendulum Painter in The First Smile" aria-describedby="caption-first-smile"><source src="./assets/studio/character-first-smile.mp4" type="video/mp4"><a href="./assets/studio/character-first-smile.mp4">Watch The First Smile</a></video>
       <figcaption id="caption-first-smile"><strong>The Pendulum Painter</strong><em>The First Smile</em> · A swinging brush draws a smile in a single arc. <a href="./assets/studio/character-pendulum-painter.webp" target="_blank" rel="noopener" aria-label="Open the concept sheet for The Pendulum Painter">Concept sheet ↗</a></figcaption>
     </figure>
     <figure>
-      <video muted playsinline loop controls preload="none" width="768" height="512" poster="./assets/studio/character-zip.webp" aria-label="Zip in The Sneeze" aria-describedby="caption-zip"><source src="./assets/studio/character-zip.mp4" type="video/mp4"><a href="./assets/studio/character-zip.mp4">Watch The Sneeze</a></video>
+      <video muted playsinline loop disablepictureinpicture disableremoteplayback preload="none" width="768" height="512" poster="./assets/studio/character-zip.webp" aria-label="Zip in The Sneeze" aria-describedby="caption-zip"><source src="./assets/studio/character-zip.mp4" type="video/mp4"><a href="./assets/studio/character-zip.mp4">Watch The Sneeze</a></video>
       <figcaption id="caption-zip"><strong>Zip</strong><em>The Sneeze</em> · A feather brushes the corduroy body. Its zipper mouth opens for a sneeze. <a href="./assets/studio/character-zipper-pouch.webp" target="_blank" rel="noopener" aria-label="Open the concept sheet for Zip">Concept sheet ↗</a></figcaption>
     </figure>
   </div>

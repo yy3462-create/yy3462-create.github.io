@@ -40,7 +40,7 @@
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: clamp(18px, 2vw, 26px) clamp(14px, 1.6vw, 22px);
   margin-bottom: clamp(38px, 5vw, 64px);
 }
@@ -103,14 +103,14 @@
   .film-frames a span { margin: 0; }
 }
 
-.motion-toolbar, .studio-controls {
+.studio-controls {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
 }
-.motion-toolbar { margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+
 .gallery-title { color: var(--ink); font-size: .94rem; font-weight: 600; }
 .motion-toggle {
   appearance: none;
@@ -124,15 +124,6 @@
 }
 .motion-toggle:hover, .motion-toggle:focus-visible { background: #eff3f1; }
 .motion-toggle:focus-visible { outline: 2px solid #426560; outline-offset: 3px; }
-.project-gallery video {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  background: #edf0ee;
-  pointer-events: none;
-}
 .character-films {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -144,3 +135,23 @@
 .character-films figcaption a { white-space: nowrap; color: #335650; text-decoration: underline; text-underline-offset: .15em; }
 .explorations-heading + #character-studies { margin-top: 0; padding-block: .3rem 2.3rem; border-top: 0; }
 @media (max-width: 600px) { .character-films { grid-template-columns: 1fr; } }
+
+/* Still-image index, followed by the project films below. */
+.gallery-bar, .character-heading, #work .film-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.gallery-bar { margin-bottom: 15px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.project-gallery img { height: auto; aspect-ratio: 12 / 7; }
+.project-gallery img.work-chart { object-fit: contain; padding: 5px; background: #f6f7f8; }
+.character-heading { flex-wrap: wrap; }
+#work .film-heading { border-bottom: 2px solid #242424; padding-bottom: 11px; }
+#work .film-heading h2 { border: 0; margin: 0; padding: 0; }
+.film-heading .motion-toggle, .character-heading .motion-toggle { flex-shrink: 0; }
+video[disablepictureinpicture]::-webkit-media-controls,
+video[disablepictureinpicture]::-webkit-media-controls-start-playback-button { display: none !important; }
+@media (max-width: 960px) {
+  .project-gallery { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}

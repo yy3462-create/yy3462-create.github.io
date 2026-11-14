@@ -1,7 +1,7 @@
 (() => {
   const videos = Array.from(document.querySelectorAll('video'));
-  const button = document.querySelector('[data-motion-toggle]');
-  if (!videos.length || !button) return;
+  const buttons = Array.from(document.querySelectorAll('[data-motion-toggle]'));
+  if (!videos.length || !buttons.length) return;
 
   const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
   const key = 'portfolio-motion';
@@ -21,8 +21,10 @@
   }
 
   function updateButton() {
-    button.textContent = enabled ? 'Pause motion' : 'Play motion';
-    button.hidden = false;
+    for (const button of buttons) {
+      button.textContent = enabled ? 'Pause motion' : 'Play motion';
+      button.hidden = false;
+    }
   }
 
   const observer = new IntersectionObserver(entries => {
@@ -45,14 +47,15 @@
     observer.observe(video);
   }
 
-  button.addEventListener('click', () => {
+  function toggleMotion() {
     enabled = !enabled;
     choice = enabled ? 'play' : 'pause';
     try { sessionStorage.setItem(key, choice); } catch {}
     pausedByViewer.clear();
     videos.forEach(sync);
     updateButton();
-  });
+  }
+  buttons.forEach(button => button.addEventListener('click', toggleMotion));
 
   preference.addEventListener('change', () => {
     if (choice !== null) return;
