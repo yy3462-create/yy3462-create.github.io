@@ -1,0 +1,53 @@
+.revision-intro {
+  max-width: 70ch;
+  margin: 0 0 1rem;
+  line-height: 1.65;
+}
+
+.dock-revisions {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: clamp(13px, 1.7vw, 23px);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dock-revisions img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.dock-revisions strong {
+  display: block;
+  margin-top: .65rem;
+  font-size: .91rem;
+}
+
+.dock-revisions p {
+  margin-top: .12rem;
+  font-size: .85rem;
+  line-height: 1.5;
+}
+
+.dock-review {
+  display: grid;
+  grid-template-columns: minmax(130px, 1fr) minmax(0, 3fr);
+  gap: 12px 30px;
+  margin-top: 1.3rem;
+  padding: 1rem 0;
+  border-block: 1px solid var(--line);
+}
+
+.dock-review h4 { font-size: 1rem; line-height: 1.5; }
+.dock-review p { max-width: 78ch; font-size: .92rem; line-height: 1.6; }
+
+@media (max-width: 850px) {
+  .dock-revisions { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 560px) {
+  .dock-revisions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dock-review { grid-template-columns: 1fr; gap: .35rem; }
+}

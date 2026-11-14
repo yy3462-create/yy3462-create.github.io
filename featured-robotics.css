@@ -1,0 +1,26 @@
+#robot-design > .assembly-films {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(14px, 2vw, 24px);
+  padding: clamp(14px, 2vw, 22px);
+  border-top: 1px solid #c9d4cd;
+  background: #fafbf9;
+}
+.assembly-films video { aspect-ratio: 16 / 10; }
+.assembly-films figcaption { margin: 6px 0 0; padding: 0; }
+.assembly-films figcaption a { color: var(--ink); font-weight: 600; }
+.assembly-films a:hover, .gait-comparison a:hover { text-decoration: underline; }
+#codesign { display: block; }
+.codesign-text { max-width: 82ch; }
+.gait-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(15px, 2.5vw, 30px);
+  margin: 20px 0 18px;
+}
+.gait-comparison figcaption strong { display: block; color: var(--ink); }
+.gait-comparison figcaption a { text-decoration: underline; text-underline-offset: 2px; }
+@media (max-width: 670px) {
+  #robot-design > .assembly-films, .gait-comparison { grid-template-columns: 1fr; }
+}

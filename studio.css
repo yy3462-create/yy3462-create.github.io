@@ -102,3 +102,45 @@
   .film-frames a { display: grid; grid-template-columns: 96px 1fr; align-items: center; gap: 12px; }
   .film-frames a span { margin: 0; }
 }
+
+.motion-toolbar, .studio-controls {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.motion-toolbar { margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.gallery-title { color: var(--ink); font-size: .94rem; font-weight: 600; }
+.motion-toggle {
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid #c8cfcd;
+  border-radius: 3px;
+  padding: .28rem .62rem;
+  background: #fff;
+  color: #324944;
+  font: 500 .78rem/1.5 var(--font);
+}
+.motion-toggle:hover, .motion-toggle:focus-visible { background: #eff3f1; }
+.motion-toggle:focus-visible { outline: 2px solid #426560; outline-offset: 3px; }
+.project-gallery video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #edf0ee;
+  pointer-events: none;
+}
+.character-films {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 2.3vw, 32px);
+}
+.character-films video { aspect-ratio: 3 / 2; }
+.character-films strong { display: block; margin-bottom: .2rem; font-size: 1rem; }
+.character-films figcaption { max-width: 59ch; }
+.character-films figcaption a { white-space: nowrap; color: #335650; text-decoration: underline; text-underline-offset: .15em; }
+.explorations-heading + #character-studies { margin-top: 0; padding-block: .3rem 2.3rem; border-top: 0; }
+@media (max-width: 600px) { .character-films { grid-template-columns: 1fr; } }
