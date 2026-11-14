@@ -28,3 +28,12 @@
 @media(max-width:640px){.studio-gallery,.studio-gallery-pair{grid-template-columns:1fr;gap:22px}.studio-project{padding:30px 0}.studio-feature figcaption{padding-inline:12px}.studio-project>p:not(.studio-kicker){font-size:.92rem}}
 
 .studio-mast+.studio-project{padding-top:clamp(20px,2.3vw,32px)}
+
+.workflow-subhead{margin:clamp(28px,3vw,40px) 0 12px;font-size:clamp(1.08rem,1.65vw,1.35rem);letter-spacing:-.025em}
+.workflow-subhead + .studio-gallery{margin-top:0}
+.workflow-origins video{aspect-ratio:16/9}
+.workflow-dock{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(20px,3vw,36px)}
+.dock-views{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.dock-views img{display:block;width:100%;height:auto}
+.dock-views span{display:block;margin-top:3px;font-size:.75rem;color:#505860}
+@media(max-width:760px){.workflow-dock,.workflow-origins{grid-template-columns:1fr}.workflow-dock{gap:22px}.workflow-origins video{aspect-ratio:auto}}

@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Robot Design in Motion | Yue Yao</title><meta name="author" content="Yue Yao"><meta name="description" content="Six robot design films by Yue Yao covering ICOS builds, an AI-assisted workflow in FreeCAD and the Droplet biped from Columbia University’s Robotics Studio.">
+<title>Robot Design in Motion | Yue Yao</title><meta name="author" content="Yue Yao"><meta name="description" content="Yue Yao’s robot design films show how she uses AI to explore robot shapes, compare gaits in MuJoCo, and revise CAD after testing printed parts.">
 <link rel="canonical" href="https://yy3462-create.github.io/robotics.html">
 <meta property="og:title" content="Robot Design in Motion | Yue Yao"><meta property="og:description" content="Watch the CAD assemblies, simulated gaits and physical bench tests."><meta property="og:type" content="website"><meta property="og:url" content="https://yy3462-create.github.io/robotics.html"><meta property="og:image" content="https://yy3462-create.github.io/assets/studio/icos-4332-cad.webp">
-<link rel="stylesheet" href="./styles.css?v=20260914-candidate"><link rel="stylesheet" href="./studio.css?v=20261113-workflow">
+<link rel="stylesheet" href="./styles.css?v=20260914-candidate"><link rel="stylesheet" href="./studio.css?v=20261114-robot-design">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23161616'/%3E%3Cpath d='M8 8L16 17L24 8M16 17V25' stroke='white' stroke-width='3' fill='none'/%3E%3C/svg%3E"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="./" aria-label="Yue Yao, home"><span class="brand-mark" aria-hidden="true">Y.</span><span>Yue Yao</span></a><nav aria-label="Main navigation"><a href="./#about">About</a><a href="./#work">Projects</a><a href="./#research">Publications</a><a href="./#experience">Experience</a><a href="./assets/yue-yao-resume.pdf?v=20261113" target="_blank" rel="noopener">Résumé</a></nav></div></header>
 
 <main id="main" class="wrap studio-page"><div class="studio-mast">
 <a class="text-link" href="./#robot-design">← Back to projects</a>
-<h1>Robot Design in Motion</h1><p>Six films from the workbench: robot assemblies in CAD, gaits in simulation, and a printed biped taking its first steps in place.</p>
+<h1>Robot Design in Motion</h1><p>Watch Droplet take shape, compare simulated gaits, and see what happens when the first printed parts meet on the workbench.</p>
 <nav aria-label="Films by project" class="studio-index"><a href="#icos-builds">ICOS builds</a><a href="#ai-cad-workflow">AI design workflow</a><a href="#droplet">Robotics Studio · Droplet</a></nav></div>
 <article id="icos-builds" class="studio-project" aria-labelledby="icos-builds-title">
   <p class="studio-kicker">Embodied AI · Modular Robot Hardware</p>
@@ -26,9 +26,21 @@
   </div>
 </article>
 <article id="ai-cad-workflow" class="studio-project" aria-labelledby="workflow-title">
-  <p class="studio-kicker">Design process · AI-assisted CAD</p>
-  <h2 id="workflow-title" class="studio-title">From FreeCAD to Assembly</h2>
-  <p class="studio-body">I use AI to write and revise parametric CAD scripts. These clips show three checks I make before printing a robot.</p>
+  <p class="studio-kicker">Design process · Droplet and ICOS</p>
+  <h2 id="workflow-title" class="studio-title">My AI Workflow for Robot Design</h2>
+  <p class="studio-body">I start with a shape I like and the hardware I can build with. I use GPT and Claude to explore variations and review CAD, compare candidates in MuJoCo, then bring problems from the printed parts back to the model.</p>
+  <h3 class="workflow-subhead">Choosing Droplet’s form</h3>
+  <div class="studio-gallery studio-gallery-pair workflow-origins">
+    <figure>
+      <video controls muted playsinline preload="none" poster="./assets/studio/droplet-concept-iterations.webp" width="1280" height="718" aria-describedby="droplet-concept-caption" aria-label="AI-generated robot concepts developed for Droplet"><source src="./assets/studio/droplet-concept-iterations.mp4" type="video/mp4"><a href="./assets/studio/droplet-concept-iterations.mp4">Watch the concept iterations</a></video>
+      <figcaption id="droplet-concept-caption"><strong>Shape studies.</strong> I used sculpture and furniture as references and asked for a more slender silhouette with each round of sketches. <span>AI-generated concept sequence · 0:14</span></figcaption>
+    </figure>
+    <figure>
+      <video controls muted playsinline preload="none" poster="./assets/studio/droplet-leg-count-simulation.webp" width="1276" height="424" aria-describedby="droplet-compare-caption" aria-label="Four-, three- and two-legged robot designs compared in MuJoCo"><source src="./assets/studio/droplet-leg-count-simulation.mp4" type="video/mp4"><a href="./assets/studio/droplet-leg-count-simulation.mp4">Watch the leg configurations</a></video>
+      <figcaption id="droplet-compare-caption"><strong>Four, three, or two legs?</strong> With a limit of eight servos, I compared three configurations in simulation and chose the two-legged form for Droplet. <span>MuJoCo simulation · 0:12</span></figcaption>
+    </figure>
+  </div>
+  <h3 class="workflow-subhead">Checking movement and assembly in CAD</h3>
   <div class="studio-gallery workflow-gallery">
     <figure id="ai-freecad">
       <video controls playsinline muted preload="none" poster="./assets/studio/freecad-quadruped-joint-sweep.webp" width="1280" height="1024" aria-label="Kinematic animation of the quadruped model’s front-left hip and knee" aria-describedby="freecad-sweep-caption"><source src="./assets/studio/freecad-quadruped-joint-sweep.mp4" type="video/mp4"><a href="./assets/studio/freecad-quadruped-joint-sweep.mp4">Open the joint-sweep video</a></video>
@@ -41,6 +53,20 @@
     <figure>
       <video controls muted playsinline preload="none" poster="./assets/studio/workflow-tray.webp" width="1026" height="776" aria-label="ICOS electronics tray assembly sequence" aria-describedby="tray-caption"><source src="./assets/studio/workflow-tray.mp4" type="video/mp4"><a href="./assets/studio/workflow-tray.mp4">Open the tray assembly film</a></video>
       <figcaption id="tray-caption"><strong>Installation order · ICOS electronics</strong> The boards slide under the tray lips. At 0:27, look for the space needed to reach the Raspberry Pi cable. <span>V84 CAD assembly · 1:23</span></figcaption>
+    </figure>
+  </div>
+  <h3 class="workflow-subhead">When a printed latch sticks</h3>
+  <div class="workflow-dock">
+    <figure>
+      <video controls muted playsinline preload="none" poster="./assets/studio/icos-spring-bolt-dock.webp" width="1280" height="642" aria-describedby="dock-caption" aria-label="CAD animation of an ICOS leg docking with two printed spring bolts"><source src="./assets/studio/icos-spring-bolt-dock.mp4" type="video/mp4"><a href="./assets/studio/icos-spring-bolt-dock.mp4">Watch the ICOS locking mechanism</a></video>
+      <figcaption id="dock-caption"><strong>How the dock should lock.</strong> The CAD animation shows two printed spring bolts engaging as the ICOS leg seats in the shell. <span>CAD mechanism animation · 0:52</span></figcaption>
+    </figure>
+    <figure>
+      <div class="dock-views">
+        <div><img src="./assets/studio/icos-dock-print.webp" width="824" height="460" loading="lazy" alt="Close-up photograph of the gray printed ICOS dock with the bolt stuck in its slot"><span>Printed dock</span></div>
+        <div><img src="./assets/studio/icos-dock-cad.webp" width="824" height="463" loading="lazy" alt="CAD close-up of the same slot with the bolt highlighted in red"><span>Same view in CAD</span></div>
+      </div>
+      <figcaption><strong>What the first print revealed.</strong> One bolt stayed stuck. Comparing the photo with the model revealed that the left and right bolts had been swapped.</figcaption>
     </figure>
   </div>
 </article>
